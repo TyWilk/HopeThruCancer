@@ -55,16 +55,46 @@ nav ul a {
 }
 
 #homeImg {
-    background-image: url("img/logo2.jpg");
+    /* background-image: url("img/logo3.jpg"); */
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeImg img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-left: 200px;
+}
+
+#homeTxt h3 {
+    font-size: 40px;
+    margin-right: 200px;
+    font-family: 'Lobster', cursive;
+}
+
+#homeTxt a {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    margin-right: 200px;
+    margin-top: 10px;
+    background-color: green;
 }
 
 #about {
     background-image: url("img/background4.png");
     background-size: cover;
     background-position: center;
-    background-color: #eee;
     height: 100vh;
     display: flex;
     justify-content: center;
